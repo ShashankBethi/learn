@@ -1,0 +1,45 @@
+  name: myapp
+  description: A new Teta Flutter project.
+  publish_to: 'none'
+  version: 1.0.0+1
+  environment:
+    sdk: ">=2.12.0 <3.0.0"
+  dependencies:
+    flutter:
+      sdk: flutter
+    teta_cms:
+    google_fonts: 2.1.0  
+    supabase: 0.3.4+1
+    supabase_flutter: 0.3.1+3
+    clipboard: 0.1.3
+    http: 0.13.4
+    splash_screen_view: 3.0.0
+    sizer: ^2.0.15
+    
+    
+    
+    
+    flutter_bloc: 7.3.3
+    hive: 2.2.2
+    flutter_translator: ^0.1.7
+    
+    cross_file: 0.3.3+1
+    universal_platform: ^1.0.0+1
+    material_design_icons_flutter: 5.0.6595
+    in_app_review: ^2.0.4
+    google_mobile_ads: 1.2.0
+    auth_buttons: 2.0.4
+
+  dependency_overrides:
+    platform: 3.1.0
+
+  dev_dependencies:
+    flutter_test:
+      sdk: flutter
+    flutter_lints: 2.0.0
+
+  flutter:
+    uses-material-design: true
+    assets:
+      - assets/teta-app.png
+  
